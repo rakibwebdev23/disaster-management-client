@@ -4,17 +4,13 @@ import Container from '../../Container/Container';
 
 const AboutSection = () => {
     return (
-        <div className="bg-amber-50 py-12 lg:py-20 px-4">
+        <div className="bg-amber-50 py-12">
             <Container>
-                {/* Section Title */}
                 <div className="text-center mb-12">
                     <span className="inline-block px-4 py-1 bg-teal-100 text-teal-600 rounded-full text-sm font-medium mb-3">About Our Mission</span>
                     <h2 className="text-3xl md:text-4xl font-bold text-gray-800">Making a <span className="text-teal-600">Difference</span> Together</h2>
                 </div>
-
-                {/* Main Content */}
                 <div className="flex flex-col lg:flex-row items-center gap-8">
-                    {/* Image Column - Displayed first on mobile, second on desktop */}
                     <div className="w-full lg:w-1/2 order-1 lg:order-2">
                         <div className="relative">
                             <img
@@ -28,8 +24,6 @@ const AboutSection = () => {
                             </div>
                         </div>
                     </div>
-
-                    {/* Text Column - Displayed second on mobile, first on desktop */}
                     <div className="w-full lg:w-1/2 order-2 lg:order-1 mt-8 lg:mt-0">
                         <h3 className="text-2xl md:text-3xl font-bold text-teal-600 mb-4">
                             Even small efforts can make <span className="text-gray-800">Big Impacts</span>
