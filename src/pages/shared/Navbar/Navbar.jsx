@@ -38,7 +38,7 @@ const Navbar = () => {
                                 {navlink}
                             </ul>
                         </div>
-                        <Link to="/" className={scrolled ? "lg:text-2xl font-bold text-[rgb(243,197,119)]": "lg:text-2xl font-bold text-white"}>Disaster Management</Link>
+                        <Link to="/" className={scrolled ? "lg:text-2xl font-bold text-[#0E605A]": "lg:text-2xl font-bold text-white"}>Disaster Management</Link>
                     </div>
                     <div className="navbar-center hidden lg:flex">
                         <ul className="menu menu-horizontal px-1 space-x-4 font-medium">
